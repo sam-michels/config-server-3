@@ -4,3 +4,8 @@ spring:
       server:
         git:
           uri: ${vcap.services.myUPSi.credentials.url}
+
+security:
+  user:
+    name: sam
+    password: michels
