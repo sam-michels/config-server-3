@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: ${vcap.services.myUPSi.credentials.url}
+          uri: ${vcap.services.config-repo.credentials.url}
 
 security:
   user:
