@@ -3,11 +3,4 @@ spring:
     config:
       server:
         git:
-          uri:
-          # ONLY include username and pwd if the repo is private
-          username:
-          password:
-security:
-  user:
-    name: us3rn@me
-    password: passw0rd!
+          uri: ${vcap.services.myUPSi.credentials.url}
