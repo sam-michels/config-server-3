@@ -13,7 +13,9 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
-
+jar {
+	baseName = 'config-server'
+}
 sourceCompatibility = 1.8
 
 repositories {
